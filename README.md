@@ -77,7 +77,7 @@ This integration is designed to be easily amended for different use cases. All l
 
 ### Changing the Webhook Data Mapping
 
-If the Wildix payload structure changes in the future, or if you want to adapt this function for a completely different service (e.g., Twilio, RingCentral), you only need to edit one section of `api/webhook.js`.
+If the Wildix payload structure changes in the future, you only need to edit one section of `api/webhook.js`.
 
 Locate the **"Data Mapping"** block at the top of the `app.post` function. You must update the paths to point to the correct data in the new payload.
 
